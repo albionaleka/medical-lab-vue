@@ -13,12 +13,13 @@
 <script>
 import { defineComponent } from "vue";
 import AuthLayout from "./layout/auth.vue";
+import MainLayout from "./layout/main.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     auth: AuthLayout,
-    "main-layout": AuthLayout,
+    "main-layout": MainLayout,
   },
 });
 </script>
