@@ -149,8 +149,10 @@ export default {
         );
 
         if (response && response.token) {
-          localStorage.setItem("authToken", response.token);
+          localStorage.setItem("token", response.token);
+          localStorage.setItem("user", JSON.stringify(response.user));
           this.toast.success("Login successful!");
+          this.$router.push({ name: "dashboard" });
         }
       } catch (error) {
         const errorMessage = error.message || "An unexpected error occurred";
