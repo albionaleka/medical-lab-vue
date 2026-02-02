@@ -120,7 +120,7 @@
 
     <div class="flex-1 ml-0 lg:ml-[280px] flex flex-col">
       <header
-        class="flex items-center justify-between px-6 py-4 md:bg-transparent bg-white md:border-none border-b border-gray-200 sticky top-0 z-30"
+        class="flex items-center justify-between px-6 py-4 md:bg-gray-100 bg-white md:border-none border-b border-gray-200 sticky top-0 z-30"
       >
         <button
           @click="toggleSidebar"

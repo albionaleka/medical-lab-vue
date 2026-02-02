@@ -233,7 +233,7 @@ const laborantMenu = [
   {
     name: "test-results",
     title: "Test Results",
-    icon: "clipboard",
+    icon: "ClipboardText",
     group: "test-results",
     submenu: [
       {
@@ -253,7 +253,7 @@ const laborantMenu = [
   {
     name: "settings",
     title: "Settings",
-    icon: "settings",
+    icon: "Cog",
     group: "settings",
     url: "/settings",
   },
